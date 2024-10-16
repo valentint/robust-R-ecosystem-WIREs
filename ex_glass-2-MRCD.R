@@ -54,8 +54,8 @@ pch1[c(22, 23, 30, 180)] <- 17
 
 cairo_pdf(filename=here::here("Output", "glass-dd.pdf"), width=15, height=7.5)
 opar <- par(mfrow=c(1,2))
-plot(mrcd, id.n=0, col=col1, pch=pch1, main="MRCD: Distance-distance plot", cex=1.8)
-plot(rpc, id.n.od=0, id.n.sd=0, col=col1, pch=pch1, main="ROBPCA: Robust PCA", cex=1.8)
+plot(mrcd, id.n=0, col=col1, pch=pch1, main="MRCD: Distance-distance plot",    cex=1.8, cex.axis=1.4, cex.lab=1.4)
+plot(rpc, id.n.od=0, id.n.sd=0, col=col1, pch=pch1, main="ROBPCA: Robust PCA", cex=1.8, cex.axis=1.4, cex.lab=1.4)
 par(opar)
 dev.off()
 

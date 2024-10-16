@@ -57,23 +57,23 @@ cairo_pdf(filename=here::here("output", "simple-reg.pdf"), width=12, height=6)
 opar <- par(mfrow=c(1,2))
 
 ##  Scatterplot with lines
-plot(x$x, x$y, xlim=c(3.4, 4.9), pch=pch1, col=col1, bg=col1, xlab="x", ylab="y") 
+plot(x$x, x$y, xlim=c(3.4, 4.9), pch=pch1, col=col1, bg=col1, xlab="x", ylab="y", cex.axis=1.4, cex.lab=1.4, cex=1.2) 
 text(x[iout,1], x[iout,2], iout, pos=4) 
 abline(lm(y~x, data=x), col=outred, lwd=2)
 abline(ltsReg(y~x, data=x), col=outblu, lwd=2)
-text(3.45, 2, "LTS", col=outblu)
-text(3.45, 4.3, "OLS", col=outred)
+text(3.45, 2, substitute(paste(bold("LTS"))), col=outblu)
+text(3.45, 4.3, substitute(paste(bold("OLS"))), col=outred)
 
 ##  Diagnostic plot
-plot(lts <- ltsReg(y~x, data=x), which="rdiag", pch=pch1, col=col1, bg=col1, offset=0.4) 
+plot(lts <- ltsReg(y~x, data=x), which="rdiag", pch=pch1, col=col1, bg=col1, offset=0.4, cex.axis=1.4, cex.lab=1.4, cex=1.2) 
 quant <- max(c(sqrt(qchisq(0.975, 1)), 2.5))
 abline(v = quant, h = c(-2.5, 2.5), col=outred, lwd=1.5)
-text(4, 5, "bad leverage points")
-text(4, -5, "bad leverage points")
-text(5.2, 0, "good leverage points")
-text(1, 5.8, "vertical outliers")
-text(1, -5.8, "vertical outliers")
-text(1.2, 2, "regular observations")
+text(4, 5, "bad leverage points", cex=1.1)
+text(4, -5, "bad leverage points", cex=1.1)
+text(5.2, 0, "good leverage points", cex=1.12)
+text(1, 5.8, "vertical outliers", cex=1.1)
+text(1, -5.8, "vertical outliers", cex=1.1)
+text(1.2, 2, "regular observations", cex=1.1)
 
 par(opar)
 

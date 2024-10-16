@@ -202,6 +202,7 @@ date1 <- "2012-10-01"
 date2 <- Sys.Date()                                 # Today
 date2 <- as.Date(format(date2, "%Y-%m-01"))         # Start of this month
 date2 <- date2 - 1                                  # End of last month
+date2 <- "2024-04-30"                                 # Today
     
 d_robust <- getDownloads(p, date1, date2)
 
@@ -224,7 +225,9 @@ p1 <- ggplot(data=d_robust$downloads.total[1:15,], aes(x=reorder(Package, V1), y
      coord_flip() +
      ylab("Total downloads (M)") +
      xlab(element_blank()) +
-     theme_light()
+     theme_light() +
+     theme(axis.text=element_text(size=12),
+     axis.title=element_text(size=14,face="bold"))
 
 p1
 
@@ -233,7 +236,9 @@ p2 <- ggplot(data=d_robust$downloads.monthly[1:15,], aes(x=reorder(Package, V1),
      coord_flip() +
      ylab("Monthly downloads (K/month)") +
      xlab(element_blank()) +
-     theme_light()
+     theme_light() +
+     theme(axis.text=element_text(size=12),
+     axis.title=element_text(size=14,face="bold"))
 
 p2
 
@@ -282,8 +287,13 @@ p3 <- ggplot(x1, aes(x = Date, y = Count, group = Package, colour = Package)) +
 #    scale_color_viridis(discrete=TRUE, option="viridis") +
     xlab("") + ylab("Total monthly downloads") + 
     ## ggtitle(paste0("Downloads of the R packages from CRAN (from ", date1, " to ", date2, ")")) +
-    theme_ipsum_pub() + 
-    theme(plot.title = element_text(size = 12))
+#    theme_ipsum_pub() + 
+    theme_light() +
+    theme(plot.title = element_text(size = 12),
+    axis.text=element_text(size=12),
+    axis.title=element_text(size=14,face="bold"),
+    legend.text = element_text(size=12))
+
     
 p3
 

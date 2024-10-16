@@ -35,20 +35,3 @@ colnames(df2) <- paste0("\\textbf{", colnames(df2), "}")
 print(xtable(df2), include.rownames=FALSE, sanitize.text.function = identity,
     sanitize.colnames.function = identity)
 
-
-##==============================================================================
-library(RobStatTM)
-data(bus)
-X0 <- as.matrix(bus)
-X1 <- X0[,-9]
-ss <- apply(X1, 2, mad)
-mu <- apply(X1, 2, median)
-X <- scale(X1, center=mu, scale=ss)
-q <- 3  #compute three components
-rr <- pcaRobS(X, q, 0.99)
-round(rr$eigvec, 3)
-
-(rrx <- prcomp(X, rank.=3))
-(rry <- prcompRob(X, rank.=3))
-
-

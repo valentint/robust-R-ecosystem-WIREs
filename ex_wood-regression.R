@@ -68,12 +68,12 @@ pch1 <- 21
 cairo_pdf(filename=here::here("Output", "wood-rdiag.pdf"), width=12, height=6)
 opar <- par(mfrow=c(1,2))
 ##  OLS
-plot(ltslm, which="rdiag", col=col1, bg=col1, pch=pch1, offset=0.4, xlim=c(1.1, 3.7), main="LS regression diagnostic plot", id.n=0)
+plot(ltslm, which="rdiag", col=col1, bg=col1, pch=pch1, offset=0.4, xlim=c(1.1, 3.7), main="LS regression diagnostic plot", id.n=0, cex.axis=1.4, cex.lab=1.4, cex=1.2)
 quant <- max(c(sqrt(qchisq(0.975, 5)), 2.5))
 abline(v = quant, h = c(-2.5, 2.5), col=outred, lwd=1.5)
 
 ##  LTS
-plot(lts, which="rdiag", col=col1, bg=col1, pch=pch1, offset=0.4, xlim=c(1,16), , main="LTS regression diagnostic plot")
+plot(lts, which="rdiag", col=col1, bg=col1, pch=pch1, offset=0.4, xlim=c(1,16), , main="LTS regression diagnostic plot", cex.axis=1.4, cex.lab=1.4, cex=1.2)
 quant <- max(c(sqrt(qchisq(0.975, 5)), 2.5))
 abline(v = quant, h = c(-2.5, 2.5), col=outred, lwd=1.5)
 

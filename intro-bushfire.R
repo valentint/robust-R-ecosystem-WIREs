@@ -16,17 +16,20 @@ library(here)
 ##  Figure 5: Classical and robust correlations and tolerance ellipses (left) and 
 ##      classical and robust Mahalanobis distances (right) for the modified wood gravity data.
 
-##  The data set wood from the package robustbase contains the well
-##  known modified wood specific gravity data set from 
-##  Rousseeuw and Leroy (1987, Table 8, page 243). The raw data are from 
-##  Draper and Smith (1966, p. 227) and were used to determine the influence of 
-##  anatomical factors of wood specific gravity with five explanatory variables 
-##  and an intercept. A contaminated version of the data set was created by 
-##  replacing a few (four) observations by outliers. We consider only the X part 
-##  consisting of the explanatory variables. The four outliers do not show up in 
-##  the box plots but they are clearly seen in several of the scatter plots  
-##  of the pairwise scatterplot matrix, i.e. they are not univariate outliers and
-##  cannot be identified by investigating any of the coordinates separately.
+##  We illustrate the effect of outliers on classical location and covariance estimates 
+##  and the performance of the corresponding robust estimates with a small multivariate 
+##  example with 38 observations in 5 variables. The data set bushfire from the package 
+##  'robustbase' contains the well known data set used by Campbell (1984) to locate bushfire 
+##  scars. The data set contains satellite measurements on five frequency bands, 
+##  corresponding to each of 38 pixels. It was introduced in the robustness 
+##  literature by Maronna and Yohai (1995) while studying the properties of the
+##  Stahel-Donoho robust estimator. They identified 14 outliers: cases 8 and 9 
+##  are outstanding and are followed by a cluster of outliers 32-38. Next come 
+##  7, 10 and 11 and finally 31 and 12. The 14 outliers do not show up in
+##  the box plots in the left-hand panel of Figure 4 but they are clearly seen in 
+##  several of the scatter plots shown in the right-hand panel which shows that 
+##  they are not univariate outliers and cannot be identified by investigating
+##  any of the coordinates separately.
 
 data(bushfire, package="robustbase")
 x <- bushfire
@@ -50,7 +53,9 @@ p1 <- ggplot(data, aes(x=variable, y=value, fill=variable)) +
     theme_light() +
     theme(
       legend.position="none",
-      plot.title = element_text(size=11)
+      plot.title = element_text(size=12, face="bold"),
+      axis.text=element_text(size=12),
+      axis.title=element_text(size=14,face="bold")
     ) +
     ggtitle("A boxplot with jitter") +
     xlab("")
@@ -65,7 +70,12 @@ iout <- factor(iout)
 p2 <- ggpairs(x, columns = 1:5, aes(color=iout, alpha = 0.5), 
         diag=list(continuous="blankDiag"), 
         upper=list(continuous="points")) +
-        theme_light()
+        theme_light() +
+    theme(
+      axis.text.y=element_text(size=10),
+      axis.text.x=element_text(size=10, angle=90, vjust = 0.5, hjust=1),
+      strip.text=element_text(color="black", face="bold", size=11)
+    ) 
 
 for(i in 1:5) {
   for(j in 1:5){

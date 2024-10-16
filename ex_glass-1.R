@@ -12,6 +12,11 @@ library(here)
 
 ##  Figure 7:  Glass data: chi-square QQ-plots of squared Mahalanobis distances of estimates.
 
+##  In this example we consider a data set of EPXMA spectra over p = 750 wavelengths collected on 180 different
+##  archeological glass vessels (Hubert et al., 2005; Maronna and Yohai, 2017). The data are available in the package
+##  rospca as the data set Glass.
+
+
 data(Glass)
 dim(Glass)
 

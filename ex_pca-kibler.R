@@ -29,7 +29,7 @@ source("sparse-functions.R")
 ##      LTSSPCA on the kibler data. The marked observations are the cars 
 ##      with diesel engines. 
 
-##  Table 4: Number of non-zero loadings (larger than 1e-5) for the kibler data 
+##  Table XXX: Number of non-zero loadings (larger than 1e-5) for the kibler data 
 ##      for each method per PC. The PS row shows the number variables in the PC 
 ##      subspace. The last row shows the number of variables that were excluded 
 ##      form the model (i.e. have zero loadings on all 4 PCs)
