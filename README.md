@@ -6,10 +6,7 @@
 **Replication scripts for the paper [“The R Package Ecosystem for Robust
 Statistics”](https://doi.org/10.1002/wics.70007)**
 
- 
-```{r, echo=FALSE, out.width = "60%"}
-include_graphics("2024-11-22 19_07_23-100089539.png")
-```
+<img src="2024-11-22 19_07_23-100089539.png" width="60%" />
 
 ### The `Data` directory
 
