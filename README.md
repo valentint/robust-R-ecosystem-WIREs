@@ -4,7 +4,12 @@
 # robust-R-ecosystem-WIREs
 
 **Replication scripts for the paper [“The R Package Ecosystem for Robust
-Statistics”](https://doi.org...)**
+Statistics”](https://doi.org/10.1002/wics.70007)**
+
+ 
+```{r, echo=FALSE, out.width = "60%"}
+##include_graphics("2024-11-22 19_07_23-100089539.png")
+```
 
 ### The `Data` directory
 

@@ -5,6 +5,7 @@ library(ggplot2)
 library(GGally)
 library(viridis)        # for Colorblind-Friendly Color Maps for R
 library(RColorBrewer)
+library(scales)         # for show-col()
 
 here::i_am("intro-wood.R")
 library(here)
