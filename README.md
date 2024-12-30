@@ -1,7 +1,5 @@
-
-<!-- README.md is generated from README.Rmd. Please edit that file -->
-
-# robust-R-ecosystem-WIREs
+The R Package Ecosystem for Robust Statistics
+================
 
 **Replication scripts for the paper [“The R Package Ecosystem for Robust
 Statistics”](https://doi.org/10.1002/wics.70007)**
@@ -269,3 +267,27 @@ in different packages (e.g. `plyr::here()` and `here::here()`).
   and Bisquare family functions using tuning parameter $k = 4.685$ in
   the right-hand panel. This figure was created using the code provided
   in the package **robustbase**.
+
+**TABLE 1 \| List of CRAN packages for robust statistical analysis.**
+
+<div style="overflow-x: scroll;">
+
+| \# | Package | Category | Description | Author(s) | Year | R.Deps |
+|----|----|----|----|----|----|----|
+| 1 | cluster | Cluster analysis | “Finding Groups in Data” extended | M. Maechler, P.Rousseeuw, and others | 1999 | 228 |
+| 2 | rrcov | Multivariate | Robust estimators with high breakdown point | V. Todorov | 2004 | 28 |
+| 3 | mvoutlier | Multivariate | Multivariate outlier detection based on robust methods | P. Filzmoser and M. Gschwandtner | 2004 | 0 |
+| 4 | pcaPP | Multivariate | Robust PCA by projection pursuit | P. Filzmoser, H. Fritz, and K. Kalcher | 2006 | 29 |
+| 5 | robustbase | Basics, regression | Basic robust statistics | M. Maechler, P. Rousseeuw, C. Croux, V. Todorov, and others | 2006 | 139 |
+| 6 | robust | Regression, multivariate | Port of the S+ “Robust Library” | J. Wang, R. Zamar, A. Marazzi, and others | 2006 | 5 |
+| 7 | ICS | Multivariate | Tools for exploring multivariate data via ICS/ICA | K. Nordhausen, A. Alfons, and others | 2007 | 7 |
+| 8 | robCompositions | Compositional | Methods for analysis of compositional data including robust methods | M. Templ and others | 2009 | 2 |
+| 9 | tclust | Cluster analysis | Provides functions for robust trimmed clustering | V. Todorov, A. M. Iscar, L. G. Escudero, and others | 2010 | 3 |
+| 10 | rrcovNA | Missing data | Robust location and scatter estimation and robust multivariate analysis with high breakdown point for incomplete data | V. Todorov | 2010 | 0 |
+| 11 | robustHD | High dimensions | Robust regression with high-dimensional data | A. Alfons | 2012 | 6 |
+| 12 | rrcovHD | High dimensions | Robust multivariate methods for high dimensional data | V. Todorov | 2012 | 1 |
+| 13 | VIM | Missing data | Visualization and imputation of missing values | M. Templ, A. Kowarik, A. Alfons, and others | 2012 | 8 |
+| 14 | GSE | Missing data | Robust estimation in the presence of cellwise and casewise contamination and missing data | A. Leung, M. Danilov, V. Yohai, and R. Zamar | 2013 | 4 |
+| 15 | WRS2 | Collections of several methodologies | A collection of robust statistical methods | P. Mair and R. Wilcox | 2014 | 4 |
+
+</div>
