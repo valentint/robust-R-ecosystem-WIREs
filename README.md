@@ -274,20 +274,35 @@ in different packages (e.g. `plyr::here()` and `here::here()`).
 
 | \# | Package | Category | Description | Author(s) | Year | R.Deps |
 |----|----|----|----|----|----|----|
-| 1 | cluster | Cluster analysis | “Finding Groups in Data” extended | M. Maechler, P.Rousseeuw, and others | 1999 | 228 |
-| 2 | rrcov | Multivariate | Robust estimators with high breakdown point | V. Todorov | 2004 | 28 |
-| 3 | mvoutlier | Multivariate | Multivariate outlier detection based on robust methods | P. Filzmoser and M. Gschwandtner | 2004 | 0 |
-| 4 | pcaPP | Multivariate | Robust PCA by projection pursuit | P. Filzmoser, H. Fritz, and K. Kalcher | 2006 | 29 |
-| 5 | robustbase | Basics, regression | Basic robust statistics | M. Maechler, P. Rousseeuw, C. Croux, V. Todorov, and others | 2006 | 139 |
-| 6 | robust | Regression, multivariate | Port of the S+ “Robust Library” | J. Wang, R. Zamar, A. Marazzi, and others | 2006 | 5 |
-| 7 | ICS | Multivariate | Tools for exploring multivariate data via ICS/ICA | K. Nordhausen, A. Alfons, and others | 2007 | 7 |
-| 8 | robCompositions | Compositional | Methods for analysis of compositional data including robust methods | M. Templ and others | 2009 | 2 |
-| 9 | tclust | Cluster analysis | Provides functions for robust trimmed clustering | V. Todorov, A. M. Iscar, L. G. Escudero, and others | 2010 | 3 |
-| 10 | rrcovNA | Missing data | Robust location and scatter estimation and robust multivariate analysis with high breakdown point for incomplete data | V. Todorov | 2010 | 0 |
-| 11 | robustHD | High dimensions | Robust regression with high-dimensional data | A. Alfons | 2012 | 6 |
-| 12 | rrcovHD | High dimensions | Robust multivariate methods for high dimensional data | V. Todorov | 2012 | 1 |
-| 13 | VIM | Missing data | Visualization and imputation of missing values | M. Templ, A. Kowarik, A. Alfons, and others | 2012 | 8 |
-| 14 | GSE | Missing data | Robust estimation in the presence of cellwise and casewise contamination and missing data | A. Leung, M. Danilov, V. Yohai, and R. Zamar | 2013 | 4 |
-| 15 | WRS2 | Collections of several methodologies | A collection of robust statistical methods | P. Mair and R. Wilcox | 2014 | 4 |
+| 1 | **[cluster](https://cran.r-project.org/web/packages/cluster/index.html)** | Cluster analysis | “Finding Groups in Data” extended | M. Maechler, P.Rousseeuw, and others | 1999 | 247 |
+| 2 | **[rrcov](https://cran.r-project.org/web/packages/rrcovNA/index.html)** | Multivariate | Robust estimators with high breakdown point | V. Todorov | 2004 | 31 |
+| 3 | **[mvoutlier](https://cran.r-project.org/web/packages/mvoutlier/index.html)** | Multivariate | Multivariate outlier detection based on robust methods | P. Filzmoser and M. Gschwandtner | 2004 | 1 |
+| 4 | **[pcaPP](https://cran.r-project.org/web/packages/pcaPP/index.html)** | Multivariate | Robust PCA by projection pursuit | P. Filzmoser, H. Fritz, and K. Kalcher | 2006 | 29 |
+| 5 | **[robustbase](https://cran.r-project.org/web/packages/robustbase/index.html)** | Basics, regression | Basic robust statistics | M. Maechler, P. Rousseeuw, C. Croux, V. Todorov, and others | 2006 | 138 |
+| 6 | **[robust](https://cran.r-project.org/web/packages/robust/index.html)** | Regression, multivariate | Port of the S+ “Robust Library” | J. Wang, R. Zamar, A. Marazzi, and others | 2006 | 6 |
+| 7 | **[ICS](https://cran.r-project.org/web/packages/ICS/index.html)** | Multivariate | Tools for exploring multivariate data via ICS/ICA | K. Nordhausen, A. Alfons, and others | 2007 | 6 |
+| 8 | **[robCompositions](https://cran.r-project.org/web/packages/robCompositions/index.html)** | Compositional | Methods for analysis of compositional data including robust methods | M. Templ and others | 2009 | 2 |
+| 9 | **[tclust](https://cran.r-project.org/web/packages/tclust/index.html)** | Cluster analysis | Provides functions for robust trimmed clustering | V. Todorov, A. M. Iscar, L. G. Escudero, and others | 2010 | 3 |
+| 10 | **[rrcovNA](https://cran.r-project.org/web/packages/rrcovNA/index.html)** | Missing data | Robust location and scatter estimation and robust multivariate analysis with high breakdown point for incomplete data | V. Todorov | 2010 | 0 |
+| 11 | **[robustHD](https://cran.r-project.org/web/packages/robustHD/index.html)** | High dimensions | Robust regression with high-dimensional data | A. Alfons | 2012 | 6 |
+| 12 | **[rrcovHD](https://cran.r-project.org/web/packages/rrcovHD/index.html)** | High dimensions | Robust multivariate methods for high dimensional data | V. Todorov | 2012 | 0 |
+| 13 | **[VIM](https://cran.r-project.org/web/packages/VIM/index.html)** | Missing data | Visualization and imputation of missing values | M. Templ, A. Kowarik, A. Alfons, and others | 2012 | 11 |
+| 14 | **[GSE](https://cran.r-project.org/web/packages/GSE/index.html)** | Missing data | Robust estimation in the presence of cellwise and casewise contamination and missing data | A. Leung, M. Danilov, V. Yohai, and R. Zamar | 2013 | 4 |
+| 15 | **[WRS2](https://cran.r-project.org/web/packages/WRS2/index.html)** | Collections of several methodologies | A collection of robust statistical methods | P. Mair and R. Wilcox | 2014 | 5 |
+| 16 | **[ICSOutlier](https://cran.r-project.org/web/packages/ICSOutlier/index.html)** | Multivariate | Outlier detection using invariant coordinate selection | K. Nordhausen, A. Archimbaud, and A. Ruiz-Gazen | 2016 | 1 |
+| 17 | **[cellWise](https://cran.r-project.org/web/packages/cellWise/index.html)** | Multivariate | Analyzing data with cellwise outliers | J. Raymaekers, P. Rousseeuw, and others | 2016 | 10 |
+| 18 | **[rrcov3way](https://cran.r-project.org/web/packages/rrcov3way/index.html)** | Multiway | Provides methods for multiway data analysis by means of (robust) Parafac and Tucker3 models | V. Todorov, V. Simonacci, M. A. Di Palma, and M. Gallo | 2017 | 0 |
+| 19 | **[pense](https://cran.r-project.org/web/packages/pense/index.html)** | High dimensions | Robust penalized (adaptive) elastic net S- and M-estimators for linear regression | D. Kepplinger, M. Salibian-Barrera, and G. C. Freue | 2017 | 0 |
+| 20 | **[rospca](https://cran.r-project.org/web/packages/rospca/index.html)** | Sparse PCA | Robust sparse PCA using the ROSPCA algorithm | T. Reynkens, V. Todorov, M. Hubert, and others | 2017 | 0 |
+| 21 | **[fsdaR](https://cran.r-project.org/web/packages/fsdaR/index.html)** | Regression and multivariate | Robust data analysis through monitoring and dynamic visualization | V. Todorov, E. Sordini, and others | 2017 | 0 |
+| 22 | **[mrfDepth](https://cran.r-project.org/web/packages/mrfDepth/index.html)** | Multivariate | Depth measures in multivariate, regression, and functional settings | P. Segaert, M. Hubert, P. Rousseeuw and others | 2017 | 1 |
+| 23 | **[ltsspca](https://cran.r-project.org/web/packages/ltsspca/index.html)** | Sparse PCA | Sparse principal component based on least trimmed squares | Y. Wang, S. Van Aelst, and others | 2019 | 0 |
+| 24 | **[RobStatTM](https://cran.r-project.org/web/packages/RobStatTM/index.html)** | Regression, multivariate | Robust statistics: theory and methods | M. Salibian-Barrera, V. Yohai, R. Maronna, and others | 2019 | 6 |
+| 25 | **[classmap](https://cran.r-project.org/web/packages/classmap/index.html)** | Cluster analysis | Visualizing classification results | J. Raymaekers, P. Rousseeuw | 2021 | 0 |
 
 </div>
+
+Note: The packages are ordered roughly according to their age. The last
+column shows the number of reverse dependencies (number of R packages
+depending on a certain package) and the column “Year”—the year of first
+availability on CRAN.
