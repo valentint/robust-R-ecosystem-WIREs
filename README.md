@@ -306,3 +306,38 @@ Note: The packages are ordered roughly according to their age. The last
 column shows the number of reverse dependencies (number of R packages
 depending on a certain package) and the column “Year”—the year of first
 availability on CRAN.
+
+**TABLE 2 \| List of CRAN packages for robust statistical analysis, with
+indication what compiled languages are used internally.**
+
+<div style="overflow-x: scroll;">
+
+| \# | Package | Compiled language |
+|----|----|----|
+| 1 | **[cluster](https://cran.r-project.org/web/packages/cluster/index.html)** | C |
+| 2 | **[rrcov](https://cran.r-project.org/web/packages/rrcovNA/index.html)** | R, FORTRAN, C, C++ |
+| 3 | **[mvoutlier](https://cran.r-project.org/web/packages/mvoutlier/index.html)** | R |
+| 4 | **[pcaPP](https://cran.r-project.org/web/packages/pcaPP/index.html)** | C++ |
+| 5 | **[robustbase](https://cran.r-project.org/web/packages/robustbase/index.html)** | FORTRAN, C |
+| 6 | **[robust](https://cran.r-project.org/web/packages/robust/index.html)** | FORTRAN, C |
+| 7 | **[ICS](https://cran.r-project.org/web/packages/ICS/index.html)** | R |
+| 8 | **[robCompositions](https://cran.r-project.org/web/packages/robCompositions/index.html)** | C++ |
+| 9 | **[tclust](https://cran.r-project.org/web/packages/tclust/index.html)** | C++, Rcpp, RcppArmadillo |
+| 10 | **[rrcovNA](https://cran.r-project.org/web/packages/rrcovNA/index.html)** | FORTRAN, C |
+| 11 | **[robustHD](https://cran.r-project.org/web/packages/robustHD/index.html)** | C++ |
+| 12 | **[rrcovHD](https://cran.r-project.org/web/packages/rrcovHD/index.html)** | R |
+| 13 | **[VIM](https://cran.r-project.org/web/packages/VIM/index.html)** | C++, Rcpp |
+| 14 | **[GSE](https://cran.r-project.org/web/packages/GSE/index.html)** | C++ |
+| 15 | **[WRS2](https://cran.r-project.org/web/packages/WRS2/index.html)** | R |
+| 16 | **[ICSOutlier](https://cran.r-project.org/web/packages/ICSOutlier/index.html)** | R |
+| 17 | **[cellWise](https://cran.r-project.org/web/packages/cellWise/index.html)** | C++, Rcpp, RcppArmadillo |
+| 18 | **[rrcov3way](https://cran.r-project.org/web/packages/rrcov3way/index.html)** | R |
+| 19 | **[pense](https://cran.r-project.org/web/packages/pense/index.html)** | C++, Rcpp, RcppArmadillo |
+| 20 | **[rospca](https://cran.r-project.org/web/packages/rospca/index.html)** | R |
+| 21 | **[fsdaR](https://cran.r-project.org/web/packages/fsdaR/index.html)** | R, Matlab |
+| 22 | **[mrfDepth](https://cran.r-project.org/web/packages/mrfDepth/index.html)** | FORTRAN, C++ |
+| 23 | **[ltsspca](https://cran.r-project.org/web/packages/ltsspca/index.html)** | C++, Rcpp, RcppArmadillo |
+| 24 | **[RobStatTM](https://cran.r-project.org/web/packages/RobStatTM/index.html)** | R, C |
+| 25 | **[classmap](https://cran.r-project.org/web/packages/classmap/index.html)** | R |
+
+</div>
