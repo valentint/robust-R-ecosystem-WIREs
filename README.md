@@ -308,7 +308,8 @@ depending on a certain package) and the column “Year”—the year of first
 availability on CRAN.
 
 **TABLE 2 \| List of CRAN packages for robust statistical analysis, with
-indication what compiled languages are used internally.**
+indication what compiled languages are used internally (only 7 out of 25
+packages use pure R).**
 
 <div style="overflow-x: scroll;">
 
