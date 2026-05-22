@@ -316,7 +316,7 @@ packages use pure R).**
 | \# | Package | Compiled language |
 |----|----|----|
 | 1 | **[cluster](https://cran.r-project.org/web/packages/cluster/index.html)** | C |
-| 2 | **[rrcov](https://cran.r-project.org/web/packages/rrcovNA/index.html)** | R, FORTRAN, C, C++ |
+| 2 | **[rrcov](https://cran.r-project.org/web/packages/rrcovNA/index.html)** | FORTRAN, C, C++ |
 | 3 | **[mvoutlier](https://cran.r-project.org/web/packages/mvoutlier/index.html)** | R |
 | 4 | **[pcaPP](https://cran.r-project.org/web/packages/pcaPP/index.html)** | C++ |
 | 5 | **[robustbase](https://cran.r-project.org/web/packages/robustbase/index.html)** | FORTRAN, C |
