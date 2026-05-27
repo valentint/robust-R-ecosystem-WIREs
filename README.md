@@ -4,7 +4,7 @@ The R Package Ecosystem for Robust Statistics
 **Replication scripts for the paper [“The R Package Ecosystem for Robust
 Statistics”](https://doi.org/10.1002/wics.70007)**
 
-<img src="2024-11-22 19_07_23-100089539.png" width="60%" />
+<img src="2024-11-22 19_07_23-100089539.png" alt="" width="60%" />
 
 ### The `Data` directory
 
@@ -340,5 +340,21 @@ packages use pure R).**
 | 23 | **[ltsspca](https://cran.r-project.org/web/packages/ltsspca/index.html)** | C++, Rcpp, RcppArmadillo |
 | 24 | **[RobStatTM](https://cran.r-project.org/web/packages/RobStatTM/index.html)** | R, C |
 | 25 | **[classmap](https://cran.r-project.org/web/packages/classmap/index.html)** | R |
+
+</div>
+
+**TABLE 3 \| List of CRAN packages for Invariant Coordinate Selection
+(ICS)**
+
+<div style="overflow-x: scroll;">
+
+| \# | Package | Category | Description | Author(s) | Year | R.Deps |
+|----|----|----|----|----|----|----|
+| 1 | **[ICS](https://cran.r-project.org/web/packages/ICS/index.html)** | ICS | Tools for Exploring Multivariate Data via ICS/ICA | K Nordhausen, A Alfons, A Archimbaud, H Oja, A Ruiz-Gazen and D Tyler | 2007 | 8 |
+| 2 | **[ICSNP](https://cran.r-project.org/web/packages/ICSNP/index.html)** | ICS | Tools for Multivariate Nonparametrics | K Nordhausen, S Sirkia, H Oja and D Tyler | 2007 | 7 |
+| 3 | **[ICSOutlier](https://cran.r-project.org/web/packages/ICSOutlier/index.html)** | ICS | Outlier Detection Using Invariant Coordinate Selection | A Archimbaud, K Nordhausen and A Ruiz-Gazen | 2016 | 1 |
+| 4 | **[ICtest](https://cran.r-project.org/web/packages/ICtest/index.html)** | ICS | Estimating and Testing the Number of Interesting Components in Linear Dimension Reduction | K Nordhausen, H Oja, D Tyler and J Virta | 2016 | 0 |
+| 5 | **[ICSShiny](https://cran.r-project.org/web/packages/ICSShiny/index.html)** | ICS | ICS via a Shiny Application | A Archimbaud, A Alfons, K Nordhausen and A Ruiz-Gazen | 2017 | 0 |
+| 6 | **[ICSClust](https://cran.r-project.org/web/packages/ICSClust/index.html)** | ICS | Tandem Clustering with Invariant Coordinate Selection | A Archimbaud, A Alfons, K Nordhausen and A Ruiz-Gazen | 2023 | 0 |
 
 </div>
