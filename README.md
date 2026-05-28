@@ -15,6 +15,16 @@ the R scripts.
 
 Here will be stored the output PDF files of the Figures.
 
+### Presentations
+
+- A keynote talk given at the ICORS’2025 conference in Stresa, Italy:
+  [Fortifying Statistical Analyses: Software Tools for Robust
+  Methods](https://github.com/valentint/robust-R-ecosystem-WIREs/blob/main/todorov-ICORS2025.pdf)
+
+- The previous talk, later updated for the ICS’2026 conference in
+  Helsinki, Finland: [Software Tools for Robust
+  Methods](https://github.com/valentint/robust-R-ecosystem-WIREs/blob/main/todorov-ICS2026.pdf)
+
 ### The `R` scripts
 
 To run the scripts start `R` in the current directory - this will set it
